@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+    <title>Encriptador 😎</title>
+</head>
+<body>
+    <canvas width="500" height="500" id="canvas" class="canvas hidden"></canvas>
+        <main>
+            <section class="primary">
+                <div class="text-area">
+                    <img src="img/alura.png" alt="Logo Alura Latam">
+                    <textarea id="textarea" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+                    <p><i class="fas fa-exclamation-circle"></i> Solo letras minúsculas sin acentos ni caracteres especiales</p>
+                </div>
+                <div class="buttons">
+                    <button id="encrypt">Encriptar</button>
+                    <button id="decrypt">Desencriptar</button>
+                </div>
+            </section>
+            <section class="secondary">
+                <div class="result">
+                    <div id="info" class="info">
+                        <h4>Ningún mensaje fue encontrado</h4>
+                        <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                    </div>
+                    <div class="button-copy">
+                        <button id="copy" class="hidden">Copiar</button> 
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>Created by Germán Binder with <i class="fas fa-heart"></i> for Program ONE and Alura Latam</p>
+        </footer>
+        <script src="scripts/app.js"></script>
+    
+</body>
+</html>
